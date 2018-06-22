@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="br.brilhante.gustavo.giphysearch.fragment.SearchFragment">
+
+    <br.brilhante.gustavo.giphysearch.component.GustavoSearchFloatingBar
+        android:id="@+id/searchBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <br.brilhante.gustavo.giphysearch.component.GustavoRecyclerView
+        android:id="@+id/gustavoRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+        <br.brilhante.gustavo.giphysearch.component.GustavoRecyclerView
+            android:id="@+id/suggestTextRecyclerView"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:visibility="gone"
+            android:alpha="0.9"/>
+    </RelativeLayout>
+
+</LinearLayout>

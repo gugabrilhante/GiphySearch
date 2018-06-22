@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/searchTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="date"
+            android:lines="1"
+            android:ellipsize="end"
+            android:textColor="@color/mainTextView"
+            android:textStyle="bold"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/timeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/secondTextView"
+            android:lines="1"
+            android:ellipsize="end"
+            android:textStyle="bold"
+            android:textSize="10sp"/>
+
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/line_horizontal_shape"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:alpha="0.4"/>
+
+</LinearLayout>

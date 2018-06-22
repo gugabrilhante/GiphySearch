@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/displayImageView"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="@drawable/box_shape"
+            android:scaleType="fitCenter"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:id="@+id/tituloTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:text="Saved Giffs"
+            android:lines="1"
+            android:ellipsize="end"
+            android:textColor="@color/mainTextView"
+            android:textStyle="bold"
+            android:textSize="16sp"/>
+
+        <br.brilhante.gustavo.giphysearch.component.GustavoRecyclerView
+            android:id="@+id/gustavoRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+
+</LinearLayout>
