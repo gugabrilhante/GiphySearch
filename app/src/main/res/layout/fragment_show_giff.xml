@@ -9,23 +9,23 @@
         <ImageView
             android:id="@+id/displayImageView"
             android:layout_width="match_parent"
-            android:layout_height="300dp"
+            android:layout_height="250dp"
             android:background="@drawable/box_shape"
             android:scaleType="fitCenter"
             android:layout_margin="10dp"/>
 
         <TextView
-            android:id="@+id/tituloTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:gravity="center"
-            android:text="Saved Giffs"
+            android:text="Tap on a saved giff to display"
             android:lines="1"
             android:ellipsize="end"
             android:textColor="@color/mainTextView"
             android:textStyle="bold"
             android:textSize="16sp"/>
+
 
         <br.brilhante.gustavo.giphysearch.component.GustavoRecyclerView
             android:id="@+id/gustavoRecyclerView"
