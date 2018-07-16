@@ -34,6 +34,7 @@ public class DataRealmHolder extends RecyclerView.ViewHolder  {
                 .asGif()
                 .load(url)
                 .into(listIcon);
+        
 
     }
 
