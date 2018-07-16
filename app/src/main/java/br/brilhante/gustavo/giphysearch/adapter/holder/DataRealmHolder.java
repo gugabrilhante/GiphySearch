@@ -35,6 +35,7 @@ public class DataRealmHolder extends RecyclerView.ViewHolder  {
                 .load(url)
                 .into(listIcon);
 
+
     }
 
     public static DataRealmHolder build(ViewGroup parent){

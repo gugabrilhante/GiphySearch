@@ -2,6 +2,9 @@ package br.brilhante.gustavo.giphysearch.application;
 
 import android.app.Application;
 
+import com.crashlytics.android.Crashlytics;
+
+import io.fabric.sdk.android.Fabric;
 import io.realm.Realm;
 import io.realm.RealmConfiguration;
 
@@ -21,6 +24,8 @@ public class GiphySearch extends Application{
                 .deleteRealmIfMigrationNeeded()
                 .build();
         Realm.setDefaultConfiguration(config);
+
+        Fabric.with(this, new Crashlytics());
     }
 
 }
