@@ -29,6 +29,9 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            ext.betaDistributionGroupAliases="personal"
+            ext.betaDistributionReleaseNotes="Release notes example."
+            signingConfig signingConfigs.release
         }
     }
 }
